@@ -74,13 +74,6 @@ function validateInput(num, base) {
     }
   }
 
-  // Check for number exceeding base limits (e.g., 8 or 9 in octal)
-  const maxValidNum = base - 1;
-  if (parseInt(num, base) > maxValidNum) {
-    output.textContent = `Number exceeds the valid range for base ${base}. Maximum valid number is ${maxValidNum}.`;
-    return false;
-  }
-
   return true; // Input is valid
 }
 
