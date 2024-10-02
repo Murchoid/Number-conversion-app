@@ -5,6 +5,7 @@ const buttonSection = document.getElementById('button-section');
 
 // Determine the current base
 let thisBase;
+
 function determineCurrentBase(base) {
   switch (base) {
     case 'decimal':
